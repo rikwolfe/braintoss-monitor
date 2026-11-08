@@ -6,7 +6,7 @@ Small GitHub Actions monitor for the public Braintoss URLs. Alerts go to the ntf
 
 ## What is checked
 
-Every URL in `sites.yml`: braintoss.app, braintoss.com, www.braintoss.com and the email backend's `send.braintoss.app/health`.
+Every URL in `sites.yml`: braintoss.app, www.braintoss.app, braintoss.com, www.braintoss.com and the email backend's `send.braintoss.app/health`.
 
 | Workflow | When | What |
 |---|---|---|
