@@ -18,6 +18,12 @@
       "since": "2026-11-08T12:13:32+00:00",
       "status": "up"
     },
+    "https://www.braintoss.app/": {
+      "cert_ok": true,
+      "detail": "HTTP 200",
+      "since": "2026-11-08T17:58:17+00:00",
+      "status": "up"
+    },
     "https://www.braintoss.com/": {
       "cert_ok": true,
       "detail": "HTTP 200",
@@ -25,5 +31,5 @@
       "status": "up"
     }
   },
-  "updated": "2026-11-08T12:13:32+00:00"
+  "updated": "2026-11-08T17:58:17+00:00"
 }
