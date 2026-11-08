@@ -1,1 +1,29 @@
-{}
+{
+  "sites": {
+    "https://braintoss.app/": {
+      "cert_ok": true,
+      "detail": "HTTP 200",
+      "since": "2026-11-08T12:13:30+00:00",
+      "status": "up"
+    },
+    "https://braintoss.com/": {
+      "cert_ok": true,
+      "detail": "HTTP 200",
+      "since": "2026-11-08T12:13:31+00:00",
+      "status": "up"
+    },
+    "https://send.braintoss.app/health": {
+      "cert_ok": true,
+      "detail": "HTTP 200",
+      "since": "2026-11-08T12:13:32+00:00",
+      "status": "up"
+    },
+    "https://www.braintoss.com/": {
+      "cert_ok": true,
+      "detail": "HTTP 200",
+      "since": "2026-11-08T12:13:32+00:00",
+      "status": "up"
+    }
+  },
+  "updated": "2026-11-08T12:13:32+00:00"
+}
