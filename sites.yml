@@ -1,0 +1,12 @@
+# Public URLs checked every 15 minutes by .github/workflows/uptime.yml.
+# Nothing secret belongs in this file: this repo is public.
+# Each entry: url (required), name (optional label).
+sites:
+  - url: https://braintoss.app/
+  - url: https://braintoss.com/
+  - url: https://www.braintoss.com/
+  - url: https://send.braintoss.app/health   # email backend (Cloud Run braintoss-email-nl)
+
+# Left out on purpose (8 Nov 2026):
+#   www.braintoss.app - Google Frontend 404 until the Cloud Run domain mapping is Ready;
+#                       add it once it answers 301 -> https://braintoss.app/

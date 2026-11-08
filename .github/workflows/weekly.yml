@@ -1,0 +1,24 @@
+name: weekly
+
+# Dead-man's switch: if this summary stops arriving on Monday morning,
+# braintoss-monitor itself is broken.
+on:
+  schedule:
+    # Monday 05:30 UTC = 06:30 Amsterdam in winter
+    - cron: "30 5 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  summary:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - run: pip install --quiet pyyaml
+      - name: Send summary
+        env:
+          NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
+        run: python3 monitor.py weekly
